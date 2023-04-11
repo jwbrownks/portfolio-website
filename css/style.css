@@ -40,3 +40,19 @@ body {
   img {
     width: 100%;
   }
+
+  a {
+    color: #ff8585;
+    text-decoration: none;
+  }
+  a:hover,
+  a: :focus {
+    color: #ff8585;
+    text-decoration: underline;
+  }
+  a:visited {
+    color: #85baff;
+  }
+  a:active {
+    color: #d15757;
+  }
