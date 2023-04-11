@@ -13,6 +13,12 @@ body {
     line-height: 1.6;
     color: #000000;
   }
+
+  header {
+    background-color: #000000;
+    padding: 0.625em;
+    margin: 0.625em;
+  }
   
   h1, h2, h3, h4 {
     font-family: 'Oswald';
@@ -85,3 +91,5 @@ body {
     background-color: #ff8585;
     color: #ffffff
   }
+
+  /* Layout styling */
