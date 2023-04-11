@@ -56,3 +56,32 @@ body {
   a:active {
     color: #d15757;
   }
+
+  .button {
+    display: inline-block;
+    background-color: #ff8585;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #ffffff;
+    transition: 0.2s opacity;
+  }
+
+  .button:hover {
+    opacity: 0.8;
+    text-decoration: none;
+    color: #ffffff
+  }
+
+  .button.contact {
+    background-color: transparent;
+    color: #ff8585;
+    text-transform: uppercase;
+    border: 2px solid #ff8585
+  }
+
+  .button.contact:hover {
+    background-color: #ff8585;
+    color: #ffffff
+  }
