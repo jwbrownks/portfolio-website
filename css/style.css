@@ -46,8 +46,8 @@ body {
     text-decoration: none;
   }
   a:hover,
-  a: :focus {
-    color: #ff8585;
+  a:focus {
+    color: #d15757;
     text-decoration: underline;
   }
   a:visited {
