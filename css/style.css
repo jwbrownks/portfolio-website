@@ -17,7 +17,7 @@ body {
   header {
     background-color: #000000;
     padding: 0.625em;
-    margin: 0.625em;
+    margin:0;
     text-align: center;
   }
   
@@ -98,6 +98,21 @@ body {
     color: #d15757;
   }
 
+  .fiveWlayout {
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+  }
+  
+  .cover {
+    margin: 1em;
+  }
+
+  .tasks {
+    display: inline-block;
+    margin: 2em;
+  }
+
   .button {
     display: inline-block;
     background-color: #ff8585;
@@ -128,7 +143,7 @@ body {
   }
 
   /* Layout styling */
-
+  
   .container {
     padding: 0 15px;
   }
@@ -143,4 +158,27 @@ body {
 
   .logo {
     max-width: 250px;
+  }
+
+  #hero {
+    background-color: #000000;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+  }
+
+  #welcome {
+    color: #ffffff;
+  }
+
+  .fiveW {
+    text-align: justify;
+    width: 150px;
+    display: inline-block;
+    margin: 1em;
+  }
+
+  #contact {
+    background-color: #000000;
+    color: #ffffff;
   }
