@@ -18,6 +18,7 @@ body {
     background-color: #000000;
     padding: 0.625em;
     margin: 0.625em;
+    text-align: center;
   }
   
   h1, h2, h3, h4 {
@@ -63,6 +64,40 @@ body {
     color: #d15757;
   }
 
+  nav {
+    display: inline-block;
+    width: 100%;
+  }
+
+  nav > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav > ul > li {
+    display: inline-block
+  }
+
+  nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ff8585;
+  }
+
+  nav > ul > li > a:visited {
+    color: #85baff;
+  }
+
+  nav > ul > li > a:hover {
+    color: #d15757;
+    text-decoration: underline;
+  }
+
+  nav > ul > li > a:active {
+    color: #d15757;
+  }
+
   .button {
     display: inline-block;
     background-color: #ff8585;
@@ -100,4 +135,12 @@ body {
 
   .row {
     margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  }
+
+  #hero h1 {
+    text-align: center;
+  }
+
+  .logo {
+    max-width: 250px;
   }
