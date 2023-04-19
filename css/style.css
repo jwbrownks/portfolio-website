@@ -102,6 +102,9 @@ body {
     display: inline-block;
     margin: 1em;
     text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .cover {
@@ -158,6 +161,10 @@ body {
     display: table;
   }
 
+  #headshot {
+    float: left;
+  }
+  
   #hero h1 {
     text-align: center;
   }
@@ -182,7 +189,7 @@ body {
     color: #ffffff;
   }
 
-  .fiveW {
+  #fiveW {
     text-align: justify;
     width: 150px;
     display: inline-block;
@@ -192,10 +199,16 @@ body {
   #contact {
     background-color: #000000;
     color: #ffffff;
+    padding: 0.5em;
   }
 
   #about-page h3 {
     margin-top: 0;
+  }
+
+  #headshot {
+    float: left;
+    margin: 5px;;
   }
 
   .berlin-illustration {
