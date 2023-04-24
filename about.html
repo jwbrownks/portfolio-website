@@ -8,6 +8,7 @@
             <meta charset="utf-8">
             <meta name="author" content="Jordan Brown">
             <meta name="description" content="This is the about page of my website">
+            <script src="https://kit.fontawesome.com/e48684c423.js" crossorigin="anonymous"></script>
             <title>About | Jordan Brown</title>
         </head>
         <body id="about-page">
@@ -15,18 +16,21 @@
             <header id="header">
                 <!-- For the navigation -->
                 <div class="container">
+                    <div class="navtoggle" id="myNavtoggle">
                     <picture>
                         <source srcset="img/wordmark/wordmark_@1.png" media="(max-width:767px)">
                         <img class="logo" src="img/wordmark/wordmark_@2.png" alt="Jordan Brown">
                     </picture>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="host.html">Host</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="host.html">Host</a></li>
+                            <li><a href="#contact" onclick="menuToggle();">Contact</a></li>
+                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle();"><i class="fas fa-bars"></i></a></li>
+                        </ul>
+                    </nav>
+                    </div>
                 </div>
             </header>
 
