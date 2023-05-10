@@ -73,10 +73,6 @@ body {
     padding: 0;
   }
 
-  nav > ul > li {
-
-  }
-
   nav > ul > li > a {
     padding: 0 15px;
     text-transform: uppercase;
@@ -150,6 +146,18 @@ body {
     padding: 0 15px;
   }
 
+  .parent {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    display: inline-table;
+  }
+
+  .child {
+    padding: 1rem 1rem;
+    float: left;
+    display: inline-table;
+  }
+
   .row {
     margin: 25px 0; /* 25px top and bottom, 0 left and right */
   }
@@ -185,6 +193,10 @@ body {
   }
 
   #welcome {
+    color: #ffffff;
+  }
+
+  #welcomeSub {
     color: #ffffff;
   }
 
